@@ -50,6 +50,7 @@ a {
 
 .nav-main {
   display: flex;
+  padding-top: 1.3rem;
   width: 100%;
   position: absolute;
   z-index: 111;
