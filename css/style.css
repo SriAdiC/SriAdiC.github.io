@@ -50,12 +50,11 @@ a {
 
 .nav-main {
   display: flex;
-  padding-top: 1.3rem;
   width: 100%;
   position: absolute;
   z-index: 111;
   color: var(--light-color);
-  top: 0;
+  top: 20px;
   align-items: center;
   justify-content: space-between;
 }
@@ -466,14 +465,14 @@ footer {
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 375px) {
   .about img {
     display: none;
   }
   .about div {
     display: inline-block;
     color: var(--light-color);
-    background: linear-gradient(324deg, var(--dark-color) 0%, rgba(144, 142, 142, 0.7) 70%), url(../img/about.jpg) no-repeat center center/cover;
+    background: linear-gradient(324deg, #000 10%, rgba(75, 73, 73, 0.7) 70%), url(../img/about.jpg) no-repeat center center/cover;
   }
   .contact .contact-a ul li:first-child {
     font-size: 1.7rem;
